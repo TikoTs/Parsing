@@ -23,7 +23,7 @@ try:
         soup_sub = soup.find('div', class_="css-1h2x2st elu6vcm2")
         all_items = soup_sub.find_all('div', class_="css-1veh5kh-ProductCard e19e7out0")
         index += 1
-        sleep(randint(2, 7))
+        sleep(randint(12, 17))
         for item in all_items:
             item_brand = item.find('p', class_="e17j0z620 css-14ahplz-Body-BodyBold-ProductCardBrandName eq12nrx0").text
             #მართალია, ეს ისედაც ვიცი, ვინაიდან მომხმარებელმა შეიყვანა, მაგრამ გადამოწმებისთვის მაინც დავტოვე
